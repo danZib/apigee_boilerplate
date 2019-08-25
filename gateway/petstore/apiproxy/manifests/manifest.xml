@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="RaiseFault404" version="SHA-512:0f9827aa9956104e0dbc747dc1b1dfa880d4b75d19a289c91433cc16ca295592ba78b29e0f64b188d2097bb017971fccfeb6f2a2d06d0de7211367dae66bc3fc"/>
+        <VersionInfo resourceName="remove-query-param-apikey" version="SHA-512:7c0cb4320b346bcf34e501e4790f23246e6acdea0f5d65993f6e71d3f3763378e22ea0b3af6810602134d21e78fa957eccbfb4afcbf9244458541b8d55977e0c"/>
+        <VersionInfo resourceName="verify-api-key" version="SHA-512:f50bda3fb8004531dbaf802e042ee6575c40cec7a979962b81ec38c7de9f78de308e704faa3afa45d17fde1126c1f057a062b64f687c073478c70f0241e155e5"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:c5aa59ae7fbbe8ea30ffaf737100249f1a5e29d3103b02f84f28856b84fc85827465a1b06351df22ad9723d5d635fa2fcef1f01a10129e356359d18ac95adc08"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:f015f9e6e46477980db353b1bc23977ad7ce04e789f99e6e0e492ea848bf6f75ad4eb9aca909c8dc0d59500295606bb72cc72d9c9919ddfaee5a9fd9aab33997"/>
+        <VersionInfo resourceName="getPet" version="SHA-512:2ab57da2aced4f5b3d0ed8eabbc2463314c9f032b53b26c5f2dbcd66e67cb969984b6ccbd72177e08619226f8f7b65c38740bbe374ab483a34f59a2a9509121c"/>
+        <VersionInfo resourceName="listPets" version="SHA-512:3093e0b20abc3158a57bdac134d173a3b30cb82e074ecb84324a37331f7f0d449900203845605660bf477eda788d5e2b395408652fd6f2ccde9564fbfac320ee"/>
+    </TargetEndpoints>
+</Manifest>

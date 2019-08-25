@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="petstore">
+    <Basepaths>/petstore</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1566745129072</CreatedAt>
+    <CreatedBy>daniel.zibion@netlight.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>petstore</DisplayName>
+    <LastModifiedAt>1566747017180</LastModifiedAt>
+    <LastModifiedBy>daniel.zibion@netlight.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:960969a86a683ac296b86f44ccebe5f2a66f3408d0032556c6eb848f179e1d814145be311902b06478b8a2b6e3f5e879c17eeb1ffbf482612d7ae55102b61337</ManifestVersion>
+    <Policies>
+        <Policy>RaiseFault404</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+        <TargetEndpoint>getPet</TargetEndpoint>
+        <TargetEndpoint>listPets</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
